@@ -1,9 +1,14 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #fffcf1;
-}
 
+ *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Poppins", sans-serif;
+}
+        body{
+            font-family: Arial, sans-serif; 
+            background-color: rgb(255, 252, 241); 
+        }
 .navbar-main-container {
     background-color: rgb(137, 53, 53);
     color: rgb(244, 241, 241);
@@ -12,6 +17,7 @@ body {
     align-items: center;
     position: fixed;
     top: 0;
+
     width: 100%;
     z-index: 1000;
 }
@@ -20,6 +26,7 @@ body {
     height: 600px;
     width: 1527px;
 }
+
 .logo-container {
     display: flex;
     align-items: center;
@@ -58,7 +65,10 @@ body {
 }
 
 
-
+.main-container {
+    height: 600px;
+    width: 1527px;
+}
 
 .main-img {
     height: auto;
@@ -445,7 +455,6 @@ body {
     font-weight: 500;
 }
 
-/* Footer Styling */
 .footer {
      background-color: rgb(137, 53, 53);
     color: #fff;

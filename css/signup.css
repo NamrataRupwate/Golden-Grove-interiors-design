@@ -124,7 +124,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    background: rgb(246, 237, 233);
+    background: rgb(246, 237, 233); 
     border-radius: 15px;
     overflow: hidden;
     width: 90%;
